@@ -1,10 +1,21 @@
-function add(n1: number, n2: number) {
-    return n1 + n2
+// const person: {
+//     name: String, 
+//     age: Number,
+//     hobbies: String [],
+//     role: [Number, String],
+    
+// } = {
+//     name: 'Andre', 
+//     age: 30, 
+//     hobbies: ['Sports', 'Cooking'],
+//     role: [2, "String"]
+// }
+
+enum Role { ADMIN, READ_ONLY, AUTHOR }
+
+const person = {
+    name: 'Andre', 
+    age: 30, 
+    hobbies: ['Sports', 'Cooking'],
+    role: Role.ADMIN
 }
-
-const number1 = 5
-const number2 = 2.8
-
-const result = add(number1, number2);
-
-console.log(result)
