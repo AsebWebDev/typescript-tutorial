@@ -1,4 +1,10 @@
-export {}
+function add(n1: number, n2: number) {
+    return n1 + n2
+}
 
-let message = 'Hello World 2'
-console.log("🚀 ~ file: main.ts ~ line 1 ~ message", message)
+const number1 = 5
+const number2 = 2.8
+
+const result = add(number1, number2);
+
+console.log(result)
